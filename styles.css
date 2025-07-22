@@ -33,7 +33,11 @@ body {
     justify-items: center;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
-    
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 5vh;
+    letter-spacing: 5px;
+    white-space: nowrap;
     
 }
 
