@@ -3,8 +3,13 @@ body {
     height: 100vh;
     width : 100vw;
     overflow: hidden;
-    background-color: orange;
-    box-sizing: border-box;
+}
+
+.body_canvas {
+    background-color: aqua;
+    display: flex;
+    height: 100vh;
+    width : 100vw;
 }
 
 .left_side {
@@ -19,6 +24,7 @@ body {
     align-items: center;
     justify-items: center;
     align-self: center;
+    position: relative;
 }
 
 .logo_bar {
@@ -38,6 +44,72 @@ body {
     font-size: 5vh;
     letter-spacing: 5px;
     white-space: nowrap;
+}
+
+.right_side {
+    border:2px solid #000000;
+    width: 60vw;
+    height: 100vh;    
+    background-color: white;
+}
+
+.header {
+    background-color: #EB5B00;
+    width: 60vw;
+    height: 30vh;
+    display : flex;
+}
+
+.header p {
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 5vh;
+    letter-spacing: 2px;
+    white-space: wrap;
+}
+
+.form_section {
+    background-color: #B12C00;
+    width: 60vw;
+    height: 50vh;
+    display:flex;
+    overflow: hidden;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #640D5F;
+    width: 60vw;
+    height: 20vh;
+    display: flex;
     
 }
 
+.footer > a :hover, a:visited {
+     color: #FFCC00 
+}
+
+
+.footer p {
+    text-align: start;
+    align-self: center;
+    align-items: start;
+    justify-content: start;
+    justify-items: start; 
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 20px;
+    letter-spacing: 2px;
+    white-space: wrap;
+}
