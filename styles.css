@@ -75,7 +75,7 @@ body {
     white-space: wrap;
 }
 
-.form_section {
+/*.form_section {
     background-color: #B12C00;
     width: 60vw;
     height: 50vh;
@@ -84,6 +84,58 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+}*/
+
+.form_section {
+    background-color: #B12C00;
+    width: 60vw;
+    height: 50vh;
+    display:flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.names_form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.email_num_form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    
+}
+
+.password_form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons_form {
+    display: flex;
+    justify-content: center;
+}
+
+.form_section label,input, button {
+    margin: 1rem;
+}
+
+.form_section button {
+    background-color: #EB5B00;
+    border: 2px solid black;
+    width: 20vw;
+    font-size: 20px;
+    
+}
+
+.form_section button:hover{
+    background-color: #640D5F;
+    color: #FFCC00;
 }
 
 .footer {
